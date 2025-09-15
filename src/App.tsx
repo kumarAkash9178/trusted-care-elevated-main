@@ -9,7 +9,6 @@ import NotFound from "./pages/NotFound";
 import Cardioplex from "./pages/Cardioplex"; // Import the Cardioplex page
 
 const queryClient = new QueryClient();
-
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
